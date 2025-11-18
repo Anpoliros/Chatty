@@ -1,14 +1,43 @@
 # Chatty iOS Client
 
-点对点聊天iOS客户端(Prototype)
+点对点聊天iOS客户端 - 完整实现的SwiftUI应用
+
+## 🚀 快速开始
+
+### 自动设置（推荐）
+
+```bash
+cd client
+./setup_xcode.sh
+```
+
+然后按照屏幕上的说明在Xcode中打开项目。
+
+### 详细设置
+
+查看 [SETUP.md](SETUP.md) 获取完整的Xcode设置指南。
 
 ## 技术栈
 
 - Swift 5.9+
 - SwiftUI (iOS 15+)
-- Combine
-- URLSession
+- Combine (响应式编程)
+- URLSession (网络请求)
 - Starscream (WebSocket)
+- MVVM架构
+
+## ✅ 已实现功能
+
+- ✅ 用户注册/登录
+- ✅ 会话列表展示
+- ✅ 实时聊天界面
+- ✅ 消息气泡UI
+- ✅ WebSocket实时通信(框架)
+- ✅ JWT令牌管理
+- ✅ 本地数据持久化
+- ✅ 下拉刷新
+- ✅ 用户搜索
+- ✅ 错误处理
 
 ## 项目结构
 
